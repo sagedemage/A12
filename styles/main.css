@@ -99,11 +99,10 @@ aside img {
 footer {
 	background-color: #931420; 
 	color: white;
-	clear: left;
+	clear: both;
 	margin-bottom: -1px;
 	margin-left: -1px;
 	margin-right: -1px;
-
 }
 
 footer p {
@@ -112,7 +111,42 @@ footer p {
 	padding-bottom: 1em;
 }
 
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+
+article img {
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	border: 1px solid black;
+}
+
+article h2 {
+	padding-top: 0;
+}
+
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+article p {
+	width: 250px;
+}
+
 /* Styles for other elements */
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+
 a:hover {
 	font-style: italic;
 }
