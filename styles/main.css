@@ -78,6 +78,14 @@ section li {
 	padding-bottom: .35em;
 }
 
+section img {
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	border: 1px solid black;
+}
+
 /* Styles for aside */
 aside {
 	width: 215px;
@@ -135,10 +143,6 @@ article h3 {
 	padding-bottom: .25em;
 }
 
-article p {
-	width: 250px;
-}
-
 /* Styles for other elements */
 h1 {
 	font-size: 150%;
@@ -153,6 +157,10 @@ a:hover {
 
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
+}
+
+.text_before_image {
+	width: 250px;
 }
 
 /* Universal Reset Selector */
